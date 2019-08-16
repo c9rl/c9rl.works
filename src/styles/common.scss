@@ -1,0 +1,39 @@
+@import 'colors';
+
+body {
+  font: 13px Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  font-weight: bold;
+  color: $light-black;
+  background-color: $light-dusk;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+  color: $light-black;
+}
+
+a {
+  color: $orange;
+  font-weight: 600;
+  text-decoration: none;
+  box-shadow: none;
+}
+
+a:hover {
+  color: #fff;
+  background: $orange;
+}
+
+.content {
+  padding: 20px 50px;
+
+  h2, h3, h4, h5 {
+    margin: 5px 0;
+  }
+
+  p {
+    font-weight: 300;
+  }
+}

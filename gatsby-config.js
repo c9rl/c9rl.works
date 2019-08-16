@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
-    author: `Kyle Mathews`,
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    title: `c9rl`,
+    author: `Carl Bernardo`,
+    description: `Carl Bernardo's Personal Website.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
       twitter: `kylemathews`,
@@ -63,7 +63,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#663399`,
         display: `minimal-ui`,
-        icon: `content/assets/gatsby-icon.png`,
+        icon: `content/assets/c9rl-icon.png`,
       },
     },
     `gatsby-plugin-offline`,
@@ -74,5 +74,14 @@ module.exports = {
         pathToConfigModule: `src/utils/typography`,
       },
     },
+    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-s3`,
+      options: {
+        bucketName: `c9rl.works`,
+        protocol: `https`,
+        hostname: `www.c9rl.works`,
+      },
+    }
   ],
 }

@@ -1,0 +1,64 @@
+@import '../common';
+
+.home-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  h1 {
+    font-size: 64px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0px 0px 20px 0px;
+  }
+
+  a {
+    padding: 0 10px;
+  }
+}
+
+.home-header {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  padding: 25px 50px;
+  z-index: 2;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icon {
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 25px;
+  height: 25px;
+  margin: 0 2px;
+}
+
+.github {
+  background-image: url(../../../static/social-icons/github.png);
+}
+
+.instagram {
+  background-image: url(../../../static/social-icons/instagram.png);
+}
+
+.linkedin {
+  background-image: url(../../../static/social-icons/linkedin.png);
+}
+
+.mail {
+  background-image: url(../../../static/social-icons/mail.png);
+}
