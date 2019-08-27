@@ -15,7 +15,7 @@ export default class About extends React.Component {
         <div className="content about-body">
           <div className="about-body__title">
             <h1>new "about me" page, who dis?</h1>
-            <img className="about-body__title-img" src={'carl.png'} alt="carl-caricature" />
+            <img className="about-body__title-img" src="https://hel1x.s3-us-west-1.amazonaws.com/assets/carl.png" alt="carl-caricature" />
           </div>
           <h3>
             <span role="img" aria-label="cheese">🧀</span> I went to school. <span className="about-body--years">2009</span>
@@ -234,7 +234,7 @@ export default class About extends React.Component {
           </p>
           <img
             className="swaggy-p"
-            src={'nick-young-confused.jpg'}
+            src="https://hel1x.s3-us-west-1.amazonaws.com/assets/nick-young-confused.jpg"
             alt="swaggy-p"
           />
           <p>
