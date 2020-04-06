@@ -21,10 +21,10 @@ export default class About extends React.Component {
             <span role="img" aria-label="cheese">🧀</span> I went to school. <span className="about-body--years">2009</span>
           </h3>
           <p>
-            I attended the University of Wisconsin-Madison in the Fall of 2009 with the intent to be an International
+            I attended the University of Wisconsin-Madison with the intent to be an International
             Business and Japanese double major. I took a variety of courses from calculus/analytical geometry and
             Asian-American history to economics and poetry during my Freshman year. I was accepted into the
-            business school, but instead decided to pursue a B.S. in Economics thanks to Paul Krugman's enlightening textbook.
+            Business School, but instead decided to pursue a B.S. in Economics thanks to Paul Krugman's enlightening textbook.
             If you didn't find me studying in the basement of Steenbock Library or at a table at <a
             href="https://goo.gl/maps/YgQPT2XCK8N2" target="_blank" rel="noopener noreferrer">my favorite coffee shop in Madison</a>,
             you could find me speaking Japanese at 会話の会 in Memorial Union or tutoring other students on how
@@ -37,7 +37,7 @@ export default class About extends React.Component {
             In 2010, I interned at Central Japan Railways (JR Central), Japan's highest throughput high-speed-rail
             operator (that's a fancy way of saying their most popular train company). I lived in a little apartment
             near Shinagawa Station in Tokyo for 3 months during that summer and conducted field work analyzing JR Central's
-            marketing strategies and ridership/throughput. I eventually presented my research to their int'l division in Japanese.
+            marketing strategies, ridership, and throughput. I eventually presented my research to their International Division in Japanese.
             The following summer I participated in Capital One's Summit for Developing Leaders, a one-week intensive case study competition,
             where my team placed 2nd and took home some sweet <i>vintage</i> iPod Shuffles as our prize.
           </p>
@@ -77,9 +77,8 @@ export default class About extends React.Component {
             In the Fall of 2015, I moved across the country from Richmond, VA to Los Angeles, CA.
           </p>
           <p>
-            While working remote for The Frontier Project on some smaller web projects, <a
-            href="https://en.wikipedia.org/wiki/MakerSquare" target="_blank" rel="noopener noreferrer">I continued to grow my coding
-            skillset</a> and worked with <a href="https://www.linkedin.com/in/shin-adachi-1b6bb1113/" target="_blank" rel="noopener noreferrer">this
+            While working remote for The Frontier Project on some smaller web projects, I continued to grow my coding
+            skillset and worked with <a href="https://www.linkedin.com/in/shin-adachi-1b6bb1113/" target="_blank" rel="noopener noreferrer">this
             awesome person</a>, <a href="https://www.linkedin.com/in/daisytsao/" target="_blank" rel="noopener noreferrer">this awesome person</a>,
             and <a href="https://www.linkedin.com/in/justanman/" target="_blank" rel="noopener noreferrer">this awesome person</a> on a handful of
             apps, <a href="https://engineeringblog.yelp.com/2016/05/yelp-online-hackathon-winners.html" target="_blank" rel="noopener noreferrer">one
@@ -101,8 +100,7 @@ export default class About extends React.Component {
           </p>
           <p>
             After Social Native, I decided to follow my curiosity and started pursuing a Master of Science in Computer
-            Science at <a href="http://www.omscs.gatech.edu/" target="_blank" rel="noopener noreferrer">Georgia Tech (OMSCS)</a> with
-            a specialization in Machine Learning. I also took some time to travel to Seattle, WA and Austin, TX. Oh, and I ran
+            Science at <a href="http://www.omscs.gatech.edu/" target="_blank" rel="noopener noreferrer">Georgia Tech (OMSCS)</a>. I also took some time to travel to Seattle, WA and Austin, TX. Oh, and I ran
             my first half-marathon (2:37:49) in San Diego.
           </p>
           <p>
@@ -115,7 +113,7 @@ export default class About extends React.Component {
             productivity (measured in time spent onboarding new employer customers).
           </p>
           <h3>
-            <span role="img" aria-label="male-facepalm">🤦🏻</span> Here's the cool stuff I'm doing now. <span className="about-body--years">2019-current</span>
+            <span role="img" aria-label="male-facepalm">🤦🏻</span> Here's the cool stuff I'm doing now. <span className="about-body--years">2020-current</span>
           </h3>
           <p>
             I'm currently consulting for a mobile technology and data science company oriented around financial services in emerging markets. <b>I
@@ -126,25 +124,19 @@ export default class About extends React.Component {
           <ul>
             <li>
               <span role="img" aria-label="books">📚 </span>
-              11/22/63, Your Money or Your Life, Kitchen Confidential
+              Killing Commendatore, Digital Minimalism, and The Institute
             </li>
             <li>
-              <span role="img" aria-label="headphones">🎧 </span>
-              To Live and Die in LA by Neil Strauss
+              <span role="img" aria-label="eyes-headphones">👀 </span>
+              The Americans, Better Call Saul, and Westworld
             </li>
             <li>
-              <span role="img" aria-label="video-game">🎮 </span>
-              Classic Wow, Octopath Traveler
+              <span role="img" aria-label="games">🎮 </span>
+              Spirit Island and Animal Crossing: New Horizons
             </li>
             <li>
               <span role="img" aria-label="plane-departure">🛫 </span>
-              India, Chicago, Madison
-            </li>
-            <li>
-              <span role="img" aria-label="bee">🐝 </span>
-              <a href="http://www.omscs.gatech.edu/cs-6750-human-computer-interaction" target="_blank" rel="noopener noreferrer">
-                CS6750 - Human Computer Interaction
-              </a>
+              Stockholm, Kiruna, Copenhagen, Palm Springs, and a Cabin in the Woods
             </li>
           </ul>
           <hr/>
@@ -243,11 +235,6 @@ export default class About extends React.Component {
           <p>
             No, that's what <i>I say</i>.
           </p>
-          {/*<hr/>*/}
-          {/*<p>*/}
-          {/*  If you'd like a boring and rigid retelling of the above, <a href="https://s3-us-west-1.amazonaws.com/hel1x/resume/Carl_Bernardo_Resume.pdf" target="_blank" rel="noopener noreferrer">click*/}
-          {/*  here</a> to view my resume.*/}
-          {/*</p>*/}
         </div>
       </React.Fragment>
     )
