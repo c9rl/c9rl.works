@@ -80,14 +80,14 @@ export default class About extends React.Component {
             awesome person</a>, <a href="https://www.linkedin.com/in/daisytsao/" target="_blank" rel="noopener noreferrer">this awesome person</a>,
             and <a href="https://www.linkedin.com/in/justanman/" target="_blank" rel="noopener noreferrer">this awesome person</a> on a handful of
             apps, <a href="https://engineeringblog.yelp.com/2016/05/yelp-online-hackathon-winners.html" target="_blank" rel="noopener noreferrer">one
-            of which was even recognized by Yelp</a>. After 2 years of working at The Frontier Project, I left for the
+            of which was even recognized by Yelp</a>. After 2 years of working as a consultant, I left for the
             opportunity to be Software Engineer #10 and work on building out <a href="https://my.socialnative.com/" target="_blank" rel="noopener noreferrer">the web
             application</a> of a data-first ad startup,
             where we received <a href="https://techcrunch.com/2017/05/18/social-native-raises-8-million-to-build-a-new-social-media-ad-platform/" target="_blank" rel="noopener noreferrer">an $8M seed round</a> during
             my time there.
           </p>
           <p>
-            As a Software Engineer there, I worked across the stack, building services for our internal API and integrating with third-party platforms such as Typeform and
+            I worked across the stack, building services for our internal API and integrating with third-party platforms such as Typeform and
             Filestack for data collection and file uploads to building out internal, brand, and creator-facing features
             on our platform. We used a mix of MySQL, Elasticsearch, and Redis for our data storage, Node.js/Koa.js for
             our API, PHP/Laravel for routing/controller actions, and React/Redux for our view layer. We did unit,
@@ -95,7 +95,7 @@ export default class About extends React.Component {
             coverage across our projects.
           </p>
           <p>
-            After that, I decided to follow my curiosity and started pursuing a Master of Science in Computer
+            After that, I decided to follow my curiosity and started pursuing a M.S. in Computer
             Science at <a href="http://www.omscs.gatech.edu/" target="_blank" rel="noopener noreferrer">Georgia Tech (OMSCS)</a>. I also took some time to travel to Seattle, WA and Austin, TX. Oh, and I ran
             my first half-marathon (2:37:49) in San Diego.
           </p>
