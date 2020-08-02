@@ -37,7 +37,7 @@ export default class About extends React.Component {
             In 2010, I interned at <a href="https://global.jr-central.co.jp/en/" target="_blank" rel="noopener noreferrer">a cool train company in Tokyo</a>. I lived in a little apartment
             near Shinagawa Station in Tokyo for 3 months during the summer and conducted field work analyzing their
             marketing strategies, ridership, and throughput. The following summer I participated in <a href="https://campus.capitalone.com/summits/" target="_blank" rel="noopener noreferrer">Capital
-            One's Summit for Developing Leaders</a> where my team placed 2nd and took home some sweet <i>vintage</i> iPod Shuffles as our prize.
+            One's Summit for Developing Leaders</a> where my team placed 2nd and took home a sweet <i>vintage</i> iPod Shuffle as a prize.
           </p>
           <h3>
             <span role="img" aria-label="flag-jpn">🇯🇵</span> Lived in 日本. <span className="about-body--years">2011-2012</span>
@@ -87,16 +87,16 @@ export default class About extends React.Component {
             my time there.
           </p>
           <p>
-            I worked across the stack, building services for our internal API and integrating with third-party platforms such as Typeform and
+            I worked on both the front and backend of the application, building services for our internal API and integrating with third-party platforms such as Typeform and
             Filestack for data collection and file uploads to building out internal, brand, and creator-facing features
             on our platform. We used a mix of MySQL, Elasticsearch, and Redis for our data storage, Node.js/Koa.js for
             our API, PHP/Laravel for routing/controller actions, and React/Redux for our view layer. We did unit,
             integration, and functional testing using Mocha/Chai, Enzyme and Selenium/Nightwatch.js, and had >80% test
-            coverage across our projects.
+            coverage across our application.
           </p>
           <p>
             After that, I decided to follow my curiosity and started pursuing a M.S. in Computer
-            Science at <a href="http://www.omscs.gatech.edu/" target="_blank" rel="noopener noreferrer">Georgia Tech (OMSCS)</a>. I also took some time to travel to Seattle, WA and Austin, TX. Oh, and I ran
+            Science at <a href="http://www.omscs.gatech.edu/" target="_blank" rel="noopener noreferrer">Georgia Tech (OMSCS)</a>. I took some time to travel to Seattle, WA and Austin, TX, and I ran
             my first half-marathon (2:37:49) in San Diego.
           </p>
           <p>
@@ -127,19 +127,19 @@ export default class About extends React.Component {
           <ul>
             <li>
               <span role="img" aria-label="books">📚 </span>
-              Digital Minimalism, The Institute, and The Name of the Wind
+              The Name of the Wind, The Wise Man's Fear, The Lies of Locke Lamora, The Institute
             </li>
             <li>
               <span role="img" aria-label="eyes-headphones">👀 </span>
-              The Americans, Better Call Saul, and Westworld
+              The Americans
             </li>
             <li>
               <span role="img" aria-label="games">🎮 </span>
-              Valorant, Spirit Island, Animal Crossing: New Horizons
+              Valorant (Plat3), Spirit Island, Animal Crossing: New Horizons
             </li>
             <li>
               <span role="img" aria-label="plane-departure">🛫 </span>
-              Stockholm, Kiruna, Copenhagen, Palm Springs, and a Cabin in the Woods
+              Palm Springs, Lake Tahoe, a Cabin in the Woods
             </li>
           </ul>
           <hr/>
