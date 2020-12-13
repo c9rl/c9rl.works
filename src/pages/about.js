@@ -127,19 +127,19 @@ export default class About extends React.Component {
           <ul>
             <li>
               <span role="img" aria-label="books">📚 </span>
-              The Name of the Wind, The Wise Man's Fear, The Lies of Locke Lamora, The Institute
+              The Red Rising Series, Say Nothing, A Very Bad Wizard
             </li>
             <li>
               <span role="img" aria-label="eyes-headphones">👀 </span>
-              The Americans
+              Christmas movies and Mr. Robot
             </li>
             <li>
               <span role="img" aria-label="games">🎮 </span>
-              Valorant (Plat3), Spirit Island, Animal Crossing: New Horizons
+              Valorant (Diamond 2) and Fire Emblem: Three Houses
             </li>
             <li>
               <span role="img" aria-label="plane-departure">🛫 </span>
-              Palm Springs, Lake Tahoe, a Cabin in the Woods
+              Nowhere! There's this thing called COVID.
             </li>
           </ul>
           <hr/>
