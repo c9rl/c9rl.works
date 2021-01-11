@@ -4,7 +4,7 @@ import { Link } from "gatsby"
 import HeaderNav from "../components/header-nav"
 import SEO from "../components/seo"
 
-import("../styles/pages/index.scss");
+import "styles/pages/index.scss"
 
 export default class Index extends React.Component {
   render() {

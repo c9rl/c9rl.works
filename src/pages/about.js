@@ -3,7 +3,7 @@ import React from "react"
 import HeaderNav from "../components/header-nav"
 import SEO from "../components/seo"
 
-import("../styles/pages/about.scss");
+import "styles/pages/about.scss"
 
 export default class About extends React.Component {
   render() {

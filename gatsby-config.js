@@ -1,9 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `c9rl`,
-    author: `Carl Bernardo`,
-    description: `Carl Bernardo's Personal Website.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
+    title: `Gatsby Starter Blog`,
+    author: {
+      name: `Kyle Mathews`,
+      summary: `who lives and works in San Francisco building useful things.`,
+    },
+    description: `A starter blog demonstrating what Gatsby can do.`,
+    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
     social: {
       twitter: `kylemathews`,
     },
@@ -30,7 +33,7 @@ module.exports = {
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 590,
+              maxWidth: 630,
             },
           },
           {
@@ -66,13 +69,18 @@ module.exports = {
         icon: `content/assets/c9rl-icon.png`,
       },
     },
-    `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
+    // this (optional) plugin enables Progressive Web App + Offline functionality
+    // To learn more, visit: https://gatsby.dev/offline
+    // `gatsby-plugin-offline`,
     {
-      resolve: `gatsby-plugin-typography`,
+      resolve: 'gatsby-plugin-root-import',
       options: {
-        pathToConfigModule: `src/utils/typography`,
-      },
+    
+        src: `${__dirname}/src`,
+        pages: `${__dirname}/src/pages`,
+        styles: `${__dirname}/src/styles`
+      }
     },
     `gatsby-plugin-sass`,
     {
