@@ -1,15 +1,12 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `c9rl`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Carl Bernardo`,
+      summary: `who livses and works in Los Angeles building things.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsby-starter-blog-demo.netlify.app/`,
-    social: {
-      twitter: `kylemathews`,
-    },
+    description: `Carl Bernardo's Personal Website.`,
+    siteUrl: `http://c9rl.works`
   },
   plugins: [
     {
@@ -60,11 +57,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `c9rl.works`,
+        short_name: `c9rl`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        theme_color: `#663399`,
+        background_color: `#fffafa`,
+        theme_color: `#fffafa`,
         display: `minimal-ui`,
         icon: `content/assets/c9rl-icon.png`,
       },
@@ -76,7 +73,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-root-import',
       options: {
-    
+
         src: `${__dirname}/src`,
         pages: `${__dirname}/src/pages`,
         styles: `${__dirname}/src/styles`

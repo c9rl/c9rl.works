@@ -20,7 +20,7 @@ export default class Index extends React.Component {
           <h1>Hi, I'm Carl.</h1>
           <div>
             <Link to="/about">/about</Link>
-            {/*<Link to="/blog">/blog</Link>*/}
+            {/* <Link to="/blog">/blog</Link> */}
           </div>
         </div>
       </React.Fragment>
